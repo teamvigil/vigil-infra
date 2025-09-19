@@ -1,2 +1,13 @@
-# vigil
-Développer une intelligence artificielle accessible et intuitive, intégrée aux outils du quotidien, pour protéger en temps réel les utilisateurs finaux contre les arnaques en ligne (hameçonnage, fraudes) en leur fournissant des alertes claires et pédagogiques. Public Cible Principal: Les utilisateurs non-techniques et les consultants en support .
+# Vigil Infrastructure
+
+Ce dépôt contient toute la définition de l'infrastructure Vigil sous forme de code (Terraform, Ansible).
+
+## Pré-requis
+- Terraform >= 1.5
+- Un compte AWS/Azure/GCP configuré
+
+## Déploiement
+1.  `cd environments/staging`
+2.  `terraform init`
+3.  `terraform plan`
+4.  `terraform apply`
