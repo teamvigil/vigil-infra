@@ -11,3 +11,5 @@ Ce dépôt contient toute la définition de l'infrastructure Vigil sous forme de
 2.  `terraform init`
 3.  `terraform plan`
 4.  `terraform apply`
+
+https://github.com/teamvigil/vigil-infra.git
